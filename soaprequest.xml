@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://tektutor.org/rpncalculator-web-service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:RPNCalculatorRequest>
+         <gs:rpnExpression>10 15 +</gs:rpnExpression>
+      </gs:RPNCalculatorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
